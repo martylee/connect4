@@ -1,0 +1,77 @@
+ body{
+    float:right;
+    width:1200px;
+    height:800px;
+    font-family: "Lucida Console", Helvetica, Monospace;
+ 	background-image:url(../images/asuka.jpg)
+	background-repeat:no-repeat;
+	background-size:200px;
+    font-family: Arial, Verdana, sans-serif;
+    margin:20px;
+    padding:0;
+ }
+  
+ 
+ input,label {
+ 	display: block;
+ }
+ 
+ 
+ h1 {
+   font-family: "Lucida Console", Helvetica, Monospace;
+ 	font-size:4em;
+ 	text-shadow: -1px 1px 0 #444;
+ 	color: gold;
+ }
+ 
+ h2{
+    font-family: "Lucida Console", Helvetica, Monospace;
+ 	font-size:2em;
+ 	color: blue;
+ }
+
+ #header{
+    font-size:12px;
+	width: 700px;
+	height: 50px;
+ }
+ 
+ #header > h1 {
+ 		text-align:center
+ }
+ 
+ #nav{
+ 	padding: 5pt;
+	position: absolute;	
+	width:130px;
+	height: 800px;
+	font-size: 10pt;
+    border:1px solid #31363E;
+    background: lightgray;
+ }
+ 
+ #main{
+	margin-left:160px;
+    width:540px;
+    height:800px;
+	background: white;
+ }
+ 
+ #turn{
+  font-family: "Lucida Console", Helvetica, Monospace;
+ 	font-size:2em;
+ 	color: blue;
+ }
+ 
+ #game{
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+#game td{
+	border: 1px solid black;
+	width: 80px;
+	height: 80px;
+	text-align: center;
+}
+
+

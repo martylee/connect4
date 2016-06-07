@@ -1,0 +1,10 @@
+#game{
+	
+	border: 3px solid;
+}
+#game td{
+	border: 1px solid;
+	width: 105px;
+	height: 105px;
+	text-align: center;
+}
